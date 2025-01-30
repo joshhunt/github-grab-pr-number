@@ -100,7 +100,6 @@ function log(...args: any[]) {
 async function sendDiscordMessage(message: string) {
   try {
     const webhookUrl = process.env.DISCORD_WEBHOOK_URL;
-    log({ webhookUrl });
 
     if (webhookUrl) {
       await fetch(webhookUrl, {
