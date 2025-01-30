@@ -1,3 +1,4 @@
 node_modules
 auth-token.json
 .vscode
+.env
